@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "next.config.js",
+      "use": "@vercel/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap/(.*)",
+      "dest": "/public/https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap/$1"
+    }
+  ]
+}

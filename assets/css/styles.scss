@@ -1,0 +1,16 @@
+// import font
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+// import icons
+@import './fonts/icons/icons.css';
+
+// import main
+@import './main.scss';
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap') format('truetype');
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
